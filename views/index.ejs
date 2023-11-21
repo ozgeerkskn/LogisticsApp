@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    
+    <!-- <% if (locals.resultIs) {%>
+      
+      <h1><%= resultIs %>
+      <% } else { %>
+      <h1>Welcome to the Band Generator 🤟</h1>
+      <% } %>
+    <form action="/" method="POST">
+      <input
+        type="text"
+        name="num1"
+        id=""
+        placeholder="Enter the first number"
+      />
+      <input
+        type="text"
+        name="num2"
+        id=""
+        placeholder="Enter the second number"
+      />
+      <button type="submit" name="submit">Calculate</button>
+  
+    </form> -->
+    <form action="/" method="POST">
+      <div class="wrapper">
+        <h1>KUM A.Ş</h1>
+        <div class="field">
+          <label for="">Aracın günlük kullanım süresi: (saat)</label>
+          <div>
+            <input type="text" placeholder="9"  name="time">
+          </div>
+          <div class="field">
+            <label for="">100 km'deki Ortalama Yakıt: (L/100)</label>
+            <div>
+              <input type="text" placeholder="6.5" name="fuel">
+            </div>
+            <div class="field">
+              <label for="">100 km'deki ortalama Hız: (km/saat)</label>
+              <div>
+                <input type="text" placeholder="80" name="rate">
+              </div>
+              <div class="field">
+                <label for="">Günlük şoför maaşı: (TL)</label>
+                <div>
+                  <input type="text" placeholder="5000"  name="sales">
+                </div>
+                <div class="field">
+                  <label for="">Rota Uzunluğu:(km)</label>
+                  <div>
+                    <input type="text" placeholder="80"  name="route">
+                  </div>
+                  <div class="field">
+                    <label for="">Lastik Başı Maaliyet: (12 lastik)</label>
+                    <div>
+                      <input type="text" placeholder="3525"  name="rubber">
+                    </div>
+                    <div class="field">
+                      <label for="">Aracın km'deki değer kaybı: (TL)</label>
+                      <div>
+                        <input type="text" placeholder="5000" name="depreciation">
+                      </div>
+                      <div class="field">
+                        <label for="">İşletim Maaliyeti: (Km başına)</label>
+                        <div>
+                          <input type="text" placeholder="5000"  name="operating">
+                        </div>
+                        <div class="field">
+                          <label for="">Şirket Maaliyeti: (Km başına)</label>
+                          <div>
+                            <input type="text" placeholder="5000"  name="company">
+                          </div>
+                          <div class="field">
+                            <label for="">Kar Yüzdesi: (%)</label>
+                            <div>
+                              <input type="text" placeholder="20"  name="profit">
+                            </div>
+                            <div class="field">
+                              <label for="">Km'deki bakım maaliyeti:(TL)</label>
+                              <div>
+                                <input type="text" placeholder="3000"  name="maintenance">
+                              </div>
+        </div>
+      </div>
+      <button type="submit" name="submit">Calculate</button>
+      <% if (locals.resultIs) {%>
+      
+        <h1>TOPLAM MAALİYET: <%= resultIs %>
+          <% } else { %>
+            <h1> 🤟 🤟 🤟 🤟 🤟 🤟 🤟</h1>
+            <% } %></h4>
+    
+      
+      <!-- <script>
+        var time = document.querySelector('.time');
+        var fuel = document.querySelector('.fuel');
+        var rate = document.querySelector('.rate');
+        var sales = document.querySelector('.sales');
+        var route = document.querySelector('.route');
+        var rubber = document.querySelector('.rubber');
+        var depreciation = document.querySelector('.depreciation');
+        var operating = document.querySelector('.operating');
+        var company = document.querySelector('.company');
+        var profit = document.querySelector('.profit');
+        var maintenance = document.querySelector('.maintenance');
+
+        function calculateSIP(){
+
+        }
+      </script> -->
+    </form>
+
+
+  </body>
+</html>
